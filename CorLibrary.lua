@@ -1,4 +1,4 @@
-local CorLib = loadstring(game:HttpGet("https://github.com/anilenzo/Corlib/blob/main/Corlib.lua"))()
+local CorLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/anilenzo/Corlib/main/Corlib.lua"))()
 
 local Window = CorLib:MakeWindow({
     Name = "Main",
