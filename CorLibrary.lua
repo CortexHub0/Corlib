@@ -1,4 +1,4 @@
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/anilenzo/Corlib/main/Windw.lua")))()
+local CorLib = loadstring(game:HttpGet(("https://raw.githubusercontent.com/anilenzo/Corlib/main/Windw.lua")))()
 
 local Tab = Window:MakeTab({
 	Name = "Main",
