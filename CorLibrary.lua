@@ -1,11 +1,15 @@
 local CorLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/anilenzo/Corlib/main/Corlib.lua"))()
 
 local Window = Rayfield:CreateWindow({
-   Name = " ",
+   Name = "Main",
    LoadingTitle = "CorLib",
    LoadingSubtitle = "CoLib",
    ConfigurationSaving = {
       Enabled = true,
-      FolderName = nil, -- Create a custom folder for your hub/game
-      FileName = "Big Hub"
+      FolderName = nil,
+      FileName = "Hub"
    }
+
+local Tab = Window:CreateTab("Home", nil)
+
+local Section = Tab:CreateSection("Main")
